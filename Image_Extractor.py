@@ -50,8 +50,3 @@ def extract_images(pdf_path, output_folder):
             pil_image.save(image_path)
     
     print("Images extracted and saved successfully!")
-
-# Example usage
-pdf_path = "your_pdf_file.pdf"
-output_folder = "output_images"
-extract_images(pdf_path, output_folder)
